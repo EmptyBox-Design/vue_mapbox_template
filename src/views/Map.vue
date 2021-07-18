@@ -1,6 +1,6 @@
 <template>
   <div id="Map">
-    <div class="left-ui text-left frosted-glass">
+    <div class="left-ui text-left frosted-glass p-2">
       <div class="title">
         <h2>Vue Mapbox Template</h2>
         <h4>subtitle</h4>
@@ -98,6 +98,8 @@ export default {
         type: 'circle',
         source: 'tree-data-source',
         paint: {
+          'circle-stroke-color': '#333333',
+          'circle-stroke-width': 1,
           'circle-radius': {
             'property': 'tree_diameter',
             'stops': [
