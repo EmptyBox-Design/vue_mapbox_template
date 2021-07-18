@@ -1,5 +1,6 @@
 # Vue Mapbox Template
 
+Created by [Emptybox](https://emptybox.io/)
 ## Prerequisites
 
 - Knowledge of *Git* flow
