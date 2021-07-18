@@ -5,6 +5,9 @@
 </template>
 
 <style lang="scss">
+
+$color-text: #333333;
+
 body {
   margin: 0;
   padding: 0;
@@ -14,6 +17,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: $color-text;
 }
 </style>
