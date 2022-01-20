@@ -1,0 +1,33 @@
+{
+    "parser": "vue-eslint-parser",
+    "globals": {
+      "defineProps": "readonly",
+      "defineEmits": "readonly"
+    },
+    "parserOptions": {
+      "parser": "@typescript-eslint/parser",
+      "sourceType": "module"
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "plugin:vue/vue3-strongly-recommended",
+      "plugin:vue/vue3-recommended",
+      "eslint:recommended",
+      "@vue/typescript/recommended",
+      "@vue/prettier",
+      "@vue/prettier/@typescript-eslint"
+    ],
+    "env": {
+      "node": true,
+      "browser": true,
+      "es2021": true
+    },
+    "rules": {
+      // override/add rules settings here, such as:
+      "vue/no-unused-vars": "error",
+      "vue/comment-directive": 0,
+      "no-unused-vars": "off",
+      "no-undef": "off",
+      "@typescript-eslint/no-unused-vars": "off"
+    }
+  }

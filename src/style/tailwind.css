@@ -1,0 +1,22 @@
+/* ./src/index.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&family=Roboto:wght@400;500&display=swap');
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+:root {
+    --color-theme-grey: #f6f7f9;
+    --color-theme-grey-100: #636161;
+    --color-theme-grey-200: #8d8b8b;
+    --color-theme-grey-300: #737373;
+    --color-theme-highlight: #cc3f3f;
+    --color-theme-danger: #ff5c5c;
+    --color-theme-black: #333333;
+    --color-theme-green: #27a34a;
+    --color-theme-pink: #ebb2b2;
+    --sidebar-width: 600px;
+  }
