@@ -1,18 +1,10 @@
-import Vue from 'vue'
+import { createApp } from 'vue'
 import App from './App.vue'
-import router from './router'
-import store from './store'
+import router from './router/router'
+import { store } from './store'
 
-// bootstrap import
-import { BootstrapVue } from 'bootstrap-vue'
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
-Vue.use(BootstrapVue)
+import './style/tailwind.css'
 
-Vue.config.productionTip = false
+import VueApexCharts from 'vue3-apexcharts'
 
-new Vue({
-  router,
-  store,
-  render: h => h(App)
-}).$mount('#app')
+createApp(App).use(router).use(store).use(VueApexCharts).mount('#app')
