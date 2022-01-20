@@ -1,8 +1,6 @@
 <template>
   <router-view />
 </template>
-
-<style>
 body {
   overflow: hidden;
 }
@@ -11,5 +9,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: var(--color-theme-black);
+  text-align: center;
 }
 </style>
